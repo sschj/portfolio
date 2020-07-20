@@ -217,7 +217,7 @@ td {
 
 .item {
     float: left;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .item .img,
@@ -233,5 +233,5 @@ td {
 /* remove margin bottom on last row */
 .last-row,
 .last-row ~ .item {
-    margin-bottom: 0;
+/*    margin-bottom: 0;*/
 }
