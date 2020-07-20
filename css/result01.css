@@ -1,0 +1,14 @@
+/*
+*bg gradient
+*https://www.gradientmagic.com/collection/fracture
+*/
+.section[data-anchor="page1"],
+.section[data-anchor="page3"],
+.section[data-anchor="page5"] {
+    background-image: linear-gradient(209deg, rgba(113, 113, 113, 0.05) 0%, rgba(113, 113, 113, 0.05) 78%, rgba(112, 112, 112, 0.05) 78%, rgba(112, 112, 112, 0.05) 100%), linear-gradient(189deg, rgba(200, 200, 200, 0.05) 0%, rgba(200, 200, 200, 0.05) 35%, rgba(56, 56, 56, 0.05) 35%, rgba(56, 56, 56, 0.05) 100%), linear-gradient(344deg, rgba(174, 174, 174, 0.05) 0%, rgba(174, 174, 174, 0.05) 70%, rgba(45, 45, 45, 0.05) 70%, rgba(45, 45, 45, 0.05) 100%), linear-gradient(170deg, rgb(217, 141, 243), rgb(133, 113, 241));
+}
+
+.section[data-anchor="page2"],
+.section[data-anchor="page4"] {
+    background-image: linear-gradient(393deg, rgba(113, 113, 113, 0.05) 0%, rgba(113, 113, 113, 0.05) 78%, rgba(112, 112, 112, 0.05) 78%, rgba(112, 112, 112, 0.05) 100%), linear-gradient(373deg, rgba(200, 200, 200, 0.05) 0%, rgba(200, 200, 200, 0.05) 35%, rgba(56, 56, 56, 0.05) 35%, rgba(56, 56, 56, 0.05) 100%), linear-gradient(528deg, rgba(174, 174, 174, 0.05) 0%, rgba(174, 174, 174, 0.05) 70%, rgba(45, 45, 45, 0.05) 70%, rgba(45, 45, 45, 0.05) 100%), linear-gradient(354deg, rgb(217, 141, 243), rgb(133, 113, 241));
+}

@@ -1,0 +1,223 @@
+/*
+*bg gradient
+*https://www.gradientmagic.com/collection/fracture
+*/
+.section[data-anchor="page1"] {
+    background-image: linear-gradient(423deg, rgba(29, 29, 29, 0.05) 0%, rgba(29, 29, 29, 0.05) 25%, rgba(226, 226, 226, 0.05) 25%, rgba(226, 226, 226, 0.05) 50%, rgba(21, 21, 21, 0.05) 50%, rgba(21, 21, 21, 0.05) 75%, rgba(216, 216, 216, 0.05) 75%, rgba(216, 216, 216, 0.05) 100%), linear-gradient(267deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 25%, rgba(108, 108, 108, 0.05) 25%, rgba(108, 108, 108, 0.05) 50%, rgba(21, 21, 21, 0.05) 50%, rgba(21, 21, 21, 0.05) 75%, rgba(236, 236, 236, 0.05) 75%, rgba(236, 236, 236, 0.05) 100%), linear-gradient(299deg, rgba(153, 153, 153, 0.05) 0%, rgba(153, 153, 153, 0.05) 25%, rgba(83, 83, 83, 0.05) 25%, rgba(83, 83, 83, 0.05) 50%, rgba(5, 5, 5, 0.05) 50%, rgba(5, 5, 5, 0.05) 75%, rgba(82, 82, 82, 0.05) 75%, rgba(82, 82, 82, 0.05) 100%), linear-gradient(392deg, rgba(26, 26, 26, 0.05) 0%, rgba(26, 26, 26, 0.05) 25%, rgba(223, 223, 223, 0.05) 25%, rgba(223, 223, 223, 0.05) 50%, rgba(232, 232, 232, 0.05) 50%, rgba(232, 232, 232, 0.05) 75%, rgba(153, 153, 153, 0.05) 75%, rgba(153, 153, 153, 0.05) 100%), linear-gradient(302deg, rgba(120, 120, 120, 0.05) 0%, rgba(120, 120, 120, 0.05) 25%, rgba(191, 191, 191, 0.05) 25%, rgba(191, 191, 191, 0.05) 50%, rgba(246, 246, 246, 0.05) 50%, rgba(246, 246, 246, 0.05) 75%, rgba(123, 123, 123, 0.05) 75%, rgba(123, 123, 123, 0.05) 100%), linear-gradient(185deg, rgb(32, 234, 255), rgb(37, 116, 255));
+}
+
+/*
+*about bg
+*/
+.section[data-anchor="page2"] {
+    background-image: linear-gradient(55deg, rgba(208, 208, 208, 0.03) 0%, rgba(208, 208, 208, 0.03) 20%, rgba(55, 55, 55, 0.03) 20%, rgba(55, 55, 55, 0.03) 40%, rgba(81, 81, 81, 0.03) 40%, rgba(81, 81, 81, 0.03) 60%, rgba(208, 208, 208, 0.03) 60%, rgba(208, 208, 208, 0.03) 80%, rgba(191, 191, 191, 0.03) 80%, rgba(191, 191, 191, 0.03) 100%), linear-gradient(291deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 14.286%, rgba(105, 105, 105, 0.02) 14.286%, rgba(105, 105, 105, 0.02) 28.572%, rgba(230, 230, 230, 0.02) 28.572%, rgba(230, 230, 230, 0.02) 42.858%, rgba(216, 216, 216, 0.02) 42.858%, rgba(216, 216, 216, 0.02) 57.144%, rgba(181, 181, 181, 0.02) 57.144%, rgba(181, 181, 181, 0.02) 71.42999999999999%, rgba(129, 129, 129, 0.02) 71.43%, rgba(129, 129, 129, 0.02) 85.71600000000001%, rgba(75, 75, 75, 0.02) 85.716%, rgba(75, 75, 75, 0.02) 100.002%), linear-gradient(32deg, rgba(212, 212, 212, 0.03) 0%, rgba(212, 212, 212, 0.03) 12.5%, rgba(223, 223, 223, 0.03) 12.5%, rgba(223, 223, 223, 0.03) 25%, rgba(11, 11, 11, 0.03) 25%, rgba(11, 11, 11, 0.03) 37.5%, rgba(86, 86, 86, 0.03) 37.5%, rgba(86, 86, 86, 0.03) 50%, rgba(106, 106, 106, 0.03) 50%, rgba(106, 106, 106, 0.03) 62.5%, rgba(220, 220, 220, 0.03) 62.5%, rgba(220, 220, 220, 0.03) 75%, rgba(91, 91, 91, 0.03) 75%, rgba(91, 91, 91, 0.03) 87.5%, rgba(216, 216, 216, 0.03) 87.5%, rgba(216, 216, 216, 0.03) 100%), linear-gradient(312deg, rgba(113, 113, 113, 0.01) 0%, rgba(113, 113, 113, 0.01) 14.286%, rgba(54, 54, 54, 0.01) 14.286%, rgba(54, 54, 54, 0.01) 28.572%, rgba(166, 166, 166, 0.01) 28.572%, rgba(166, 166, 166, 0.01) 42.858%, rgba(226, 226, 226, 0.01) 42.858%, rgba(226, 226, 226, 0.01) 57.144%, rgba(109, 109, 109, 0.01) 57.144%, rgba(109, 109, 109, 0.01) 71.42999999999999%, rgba(239, 239, 239, 0.01) 71.43%, rgba(239, 239, 239, 0.01) 85.71600000000001%, rgba(54, 54, 54, 0.01) 85.716%, rgba(54, 54, 54, 0.01) 100.002%), linear-gradient(22deg, rgba(77, 77, 77, 0.03) 0%, rgba(77, 77, 77, 0.03) 20%, rgba(235, 235, 235, 0.03) 20%, rgba(235, 235, 235, 0.03) 40%, rgba(215, 215, 215, 0.03) 40%, rgba(215, 215, 215, 0.03) 60%, rgba(181, 181, 181, 0.03) 60%, rgba(181, 181, 181, 0.03) 80%, rgba(193, 193, 193, 0.03) 80%, rgba(193, 193, 193, 0.03) 100%), linear-gradient(80deg, rgba(139, 139, 139, 0.02) 0%, rgba(139, 139, 139, 0.02) 14.286%, rgba(114, 114, 114, 0.02) 14.286%, rgba(114, 114, 114, 0.02) 28.572%, rgba(240, 240, 240, 0.02) 28.572%, rgba(240, 240, 240, 0.02) 42.858%, rgba(221, 221, 221, 0.02) 42.858%, rgba(221, 221, 221, 0.02) 57.144%, rgba(74, 74, 74, 0.02) 57.144%, rgba(74, 74, 74, 0.02) 71.42999999999999%, rgba(201, 201, 201, 0.02) 71.43%, rgba(201, 201, 201, 0.02) 85.71600000000001%, rgba(187, 187, 187, 0.02) 85.716%, rgba(187, 187, 187, 0.02) 100.002%), linear-gradient(257deg, rgba(72, 72, 72, 0.03) 0%, rgba(72, 72, 72, 0.03) 16.667%, rgba(138, 138, 138, 0.03) 16.667%, rgba(138, 138, 138, 0.03) 33.334%, rgba(54, 54, 54, 0.03) 33.334%, rgba(54, 54, 54, 0.03) 50.001000000000005%, rgba(161, 161, 161, 0.03) 50.001%, rgba(161, 161, 161, 0.03) 66.668%, rgba(17, 17, 17, 0.03) 66.668%, rgba(17, 17, 17, 0.03) 83.33500000000001%, rgba(230, 230, 230, 0.03) 83.335%, rgba(230, 230, 230, 0.03) 100.002%), linear-gradient(47deg, rgba(191, 191, 191, 0.01) 0%, rgba(191, 191, 191, 0.01) 16.667%, rgba(27, 27, 27, 0.01) 16.667%, rgba(27, 27, 27, 0.01) 33.334%, rgba(66, 66, 66, 0.01) 33.334%, rgba(66, 66, 66, 0.01) 50.001000000000005%, rgba(36, 36, 36, 0.01) 50.001%, rgba(36, 36, 36, 0.01) 66.668%, rgba(230, 230, 230, 0.01) 66.668%, rgba(230, 230, 230, 0.01) 83.33500000000001%, rgba(93, 93, 93, 0.01) 83.335%, rgba(93, 93, 93, 0.01) 100.002%), linear-gradient(90deg, #ffffff, #ffffff);
+}
+
+/*
+*lnb
+*/
+#lnb {
+    float: right;
+    margin-right: 100px;
+    /*    margin-top: 0;*/
+}
+
+#lnb li {
+    margin: -40px;
+}
+
+#lnb li a {
+    font-size: 90px;
+    font-family: 'Bebas Neue', cursive;
+    color: #2d306b;
+    letter-spacing: -3px;
+    line-height: 200px;
+}
+
+#lnb li a:hover {
+    color: #fff;
+}
+
+/*
+* #lnb li a hover : 밑줄
+*/
+/*core styles*/
+.sm-link {
+    --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+    --uismLinkTextColor: var(--smLinkTextColor);
+    --uismLinkTextColorHover: var(--smLinkTextColorHover);
+
+    display: var(--uismLinkDisplay);
+    color: var(--uismLinkTextColor);
+    position: relative;
+    overflow: hidden;
+}
+
+a.sm-link {
+    text-decoration: none;
+}
+
+.sm-link__label {
+    display: block;
+    /*글자와 밑줄의 간격*/
+    margin-bottom: -60px;
+}
+
+/* sm-link_padding-bottom */
+.sm-link_padding-bottom {
+    /*밑줄두께*/
+    --uismLinkLineWeight: var(--smLinkLineWeight, 10px);
+    /*밑줄색깔*/
+    --uismLinkLineColor: var(--smLinkLineColor, #fff);
+    padding-bottom: var(--uismLinkLineWeight);
+    position: relative;
+}
+
+.sm-link_padding-bottom::after {
+    content: "";
+    /* before 상태에서 라인의 시작부분이 보일 때 조정*/
+    width: 97%;
+    height: var(--uismLinkLineWeight);
+    background-color: var(--uismLinkLineColor);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* effect 3 */
+.sm-link3::after {
+    transform: translate3d(-100%, 0, 0);
+    transition: transform .1s ease-in;
+}
+
+.sm-link3:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+
+/*
+*result
+*/
+#result {
+    /*    background-color: #fff;*/
+    /*    border: 10px #000 solid;*/
+    width: 70%;
+    height: 70%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    line-height: 70%;
+
+}
+
+video {
+    margin: 60px;
+    width: 90%;
+}
+
+#result .banner img {
+    width: 30%;
+    padding: 2px;
+    margin-top: 140px;
+}
+
+#result .event img {
+    width: 35%;
+    margin-top: -30px;
+}
+
+/*더페이스샵 잉크립퀴드체*/
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+*about
+*/
+#about {
+    font-family: 'Noto Sans KR', cursive;
+    padding: 180px 246px 180px 180px;
+}
+
+#about #greeting {
+    float: left;
+    margin: 0 863px 450px 0;
+    position: relative;
+}
+
+#about #info {
+    display: inline-block;
+    float: right;
+}
+
+#about .name {
+    clear: both;
+    font-family: "InkLipquid", sans-serif;
+    font-size: 120px;
+    color: #2d306b;
+    font-weight: 500;
+    letter-spacing: -8px;
+}
+
+#about table,
+p {
+    font-size: 14px;
+}
+
+#about .date,
+.place {
+    color: #969696;
+}
+
+#about tr,
+td {
+    padding: 0 5px;
+}
+
+#edu {
+    clear: both;
+}
+
+#skills img {
+    width: 29px;
+    height: 29px;
+}
+
+/*
+*자기소개 부분 유동형 그리드
+*document http://brunjo.github.io/rowGrid.js/
+*/
+/* clearfix */
+#about:before,
+#about:after {
+    content: "";
+    display: table;
+}
+
+#about:after {
+    clear: both;
+}
+
+.item {
+    float: left;
+    margin-right: 70px;
+}
+
+.item .img,
+.img2 {
+    width: 160px;
+    margin: 1px;
+}
+
+.first-item {
+    clear: both;
+}
+
+/* remove margin bottom on last row */
+.last-row,
+.last-row ~ .item {
+    margin-bottom: 0;
+}

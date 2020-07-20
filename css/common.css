@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*
+*header
+*/
+#header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/*
+* mouse scroll down icon
+*/
+@keyframes float {
+    0% {
+        transform: translatey(30px);
+    }
+
+    50% {
+        transform: translatey(0px);
+    }
+
+    100% {
+        transform: translatey(30px);
+    }
+}
+
+.scroll {
+    display: block;
+    clear: both;
+    animation: float 1.5s ease-in-out infinite;
+    opacity: 0.5;
+    transform: translatY(30px);
+    width: 3%;
+    margin: 0 auto;
+    filter: invert(1);
+    position: absolute;
+    left: 1000px;
+    bottom: 90px;    
+}
