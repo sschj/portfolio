@@ -19,15 +19,16 @@
 #lnb {
     float: right;
     margin-right: 100px;
-    /*    margin-top: 0;*/
+/*    background-color: red;*/
+    
 }
 
 #lnb li {
-    margin: -40px;
+    margin-top: 40px;
 }
 
 #lnb li a {
-    font-size: 90px;
+    font-size: 105px;
     font-family: 'Bebas Neue', cursive;
     color: #2d306b;
     letter-spacing: -3px;
@@ -61,6 +62,8 @@ a.sm-link {
     display: block;
     /*글자와 밑줄의 간격*/
     margin-bottom: -60px;
+    margin-top: -53px;
+/*    background-color: red;*/
 }
 
 /* sm-link_padding-bottom */
@@ -98,8 +101,8 @@ a.sm-link {
 *result
 */
 #result {
-    /*    background-color: #fff;*/
-    /*    border: 10px #000 solid;*/
+/*    background-color: #000;*/
+/*        border: 10px #000 solid;*/
     width: 70%;
     height: 70%;
     float: left;
@@ -107,7 +110,18 @@ a.sm-link {
     margin: 0 auto;
     display: block;
     line-height: 70%;
+}
 
+#result p{
+    position: absolute;
+    left: 36px;
+    top: 100px;
+    color:rgba( 255, 255, 255, 0.05 );
+    font-family: 'InkLipquid';
+    font-size: 300px;
+    height: 80%;
+    width: 65%;
+    line-height: 800px;
 }
 
 video {
