@@ -12,3 +12,49 @@
 .section[data-anchor="page4"] {
     background-image: linear-gradient(393deg, rgba(113, 113, 113, 0.05) 0%, rgba(113, 113, 113, 0.05) 78%, rgba(112, 112, 112, 0.05) 78%, rgba(112, 112, 112, 0.05) 100%), linear-gradient(373deg, rgba(200, 200, 200, 0.05) 0%, rgba(200, 200, 200, 0.05) 35%, rgba(56, 56, 56, 0.05) 35%, rgba(56, 56, 56, 0.05) 100%), linear-gradient(528deg, rgba(174, 174, 174, 0.05) 0%, rgba(174, 174, 174, 0.05) 70%, rgba(45, 45, 45, 0.05) 70%, rgba(45, 45, 45, 0.05) 100%), linear-gradient(354deg, rgb(217, 141, 243), rgb(133, 113, 241));
 }
+
+
+/*
+*slide : slick
+*/
+#content div.still_cut {
+    margin: 0 auto;
+    width: 77%;
+    padding: 30px 0;
+}
+
+#content .still_cut div {
+    margin: 0 auto;
+}
+
+#content .still_cut img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+#content .still_cut .slick-slide {
+    transition: all ease-in-out .2s;
+    opacity: .2;
+}
+
+#content .still_cut .slick-active {
+    opacity: .5;
+}
+
+#content .still_cut .slick-current {
+    opacity: 1;
+}
+
+/*
+*mockup
+*/
+.appSlide {
+    background-image: url(../src/mockup/white_none.png);
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
