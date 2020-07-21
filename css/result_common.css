@@ -371,19 +371,6 @@
     animation: text-flicker-in-glow 1.5s linear both;
 }
 
-/*
-*explain
-*/
-#content .explain {
-    width: 55%;
-    height: 50%;
-    padding-top: 40px;
-    /*    padding: 40px 0;*/
-    margin: 0 auto;
-    font-size: 18px;
-    /*    background-color: aqua;*/
-}
-
 /*horizontal line*/
 .hl_1 {
     display: inline-block;
@@ -400,10 +387,19 @@
     margin: 0 auto;
 }
 
+/*
+*explain
+*/
+#content .explain {
+    width: 55%;
+    height: 50%;
+    padding-top: 40px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
 #content .explain h2 {
     display: inline-block;
-    /*    margin: 0 auto;*/
-    /*    text-align: center;*/
     background-color: #2d306b;
     color: #fff;
     padding: 0 10px 3px 10px;
@@ -413,7 +409,15 @@
 #content .explain .resultInfo {
     margin: 20px;
     line-height: 40px;
-    /*    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);*/
+}
+
+.resultInfo table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.resultInfo tr,td {
+    padding: 10px;
 }
 
 #content .resultInfo div {
@@ -424,24 +428,12 @@
 #content .resultInfo span.gubun {
     font-weight: 900;
     color: #fff;
-    margin: 0 -5px;
-}
-
-#content .resultInfo span.gubun:nth-of-type(2) {
-    font-weight: 900;
-    color: #fff;
-    margin: 0 -5px 0 40px;
-}
-
-#content .resultInfo span.gubun:nth-of-type(3) {
-    font-weight: 900;
-    color: #fff;
-    margin: 0 -5px 0 40px;
+/*    margin: 0 -5px;*/
 }
 
 #content .explain .resultInfo img {
-    width: 3%;
-    margin-bottom: 5px;
+    width: 29px;
+    padding: 1px;
 }
 
 /*
