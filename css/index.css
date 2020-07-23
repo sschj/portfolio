@@ -16,11 +16,11 @@
 /*
 *lnb
 */
+/*#result{background-color: blue;}*/
 #lnb {
     float: right;
     margin-right: 100px;
 /*    background-color: red;*/
-    
 }
 
 #lnb li {
@@ -103,7 +103,7 @@ a.sm-link {
 #result {
 /*    background-color: #000;*/
 /*        border: 10px #000 solid;*/
-    width: 70%;
+    width: 65%;
     height: 70%;
     float: left;
     text-align: center;
@@ -165,6 +165,8 @@ video {
     font-style: normal;
 }
 
+/*#greeting{background-color: chartreuse;}*/
+/*#info{background-color: cadetblue;}*/
 /*
 *about
 */
