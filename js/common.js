@@ -18,7 +18,7 @@ $(document).ready(function () {
         controlArrows: true,
         responsiveWidth: 700,
         responsiveHeight: 640,
-        anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
         //sectionsColor: ['', '#4BBFC3'],
         parallax: true,
         onLeave: function (origin, destination, direction) {
