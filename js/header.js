@@ -9,7 +9,7 @@
         var url =   parent.document.location.href;
         var pathname =   parent.document.location.pathname;
 //        console.log('url: ' + url);
-        console.log('pathname: ' + pathname);
+        console.log('pathname2: ' + pathname);
         if (pathname == '/portfolio/' || url.indexOf('index') != -1) {   
             // index.html 페이지 첫 로딩시 1page 메뉴 안보임                
             $('.aboutLink').css({'display': 'none'});
