@@ -1,13 +1,5 @@
 $(document).ready(function () {
 
-//    $("iframe").each(function () {
-//        var ifr_source = $(this).attr('src');
-//        var wmode = "wmode=transparent";
-////        wmode=opaque 
-//        if (ifr_source.indexOf('?') != -1) $(this).attr('src', ifr_source + '&' + wmode);
-//        else $(this).attr('src', ifr_source + '?' + wmode);
-//    });
-
     // 1 scroll = 1 page
     // 참고 https://blog.naver.com/rjsahgudwkd2/222009505229
     //      https://blog.naver.com/coding-/221432074882

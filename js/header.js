@@ -6,9 +6,11 @@
             $('#menu_h').slideToggle();
         });
 
-        var url = parent.document.location.href;
+        var url =   parent.document.location.href;
+        var pathname =   parent.document.location.pathname;
 //        console.log('url: ' + url);
-        if (url.indexOf('index') != -1) {   
+//        console.log('pathname: ' + pathname);
+        if (pathname == '/' || url.indexOf('index') != -1) {   
             // index.html 페이지 첫 로딩시 1page 메뉴 안보임                
             $('.aboutLink').css({'display': 'none'});
             $('#menu_h').css({'display': 'none'});                
@@ -17,7 +19,7 @@
         // 스크롤 위치에 따른 메뉴 컬러 변경
         $(window.parent.document).scroll(function() {
 //            console.log($(window.parent.document).scrollTop());
-            if (url.indexOf('index') != -1) {
+            if (pathname == '/' || url.indexOf('index') != -1) {
                 // index.html 2page                 
                 if($(window.parent.document).scrollTop() > 900){
                     // 메뉴 보임
