@@ -181,6 +181,11 @@ video {
     position: relative;
 }
 
+#about #greeting > h5 {
+    width : 440px;
+    height : 19px;
+}
+
 #about #info {
     display: inline-block;
     float: right;
