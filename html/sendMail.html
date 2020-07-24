@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>parallax</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
+    <style>
+        * {
+/*            margin: 0;*/
+/*            padding: 0;*/
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        body{
+/*            background-color: aqua;*/
+            width: 150px;
+        }
+
+        /* nav */
+        #nav {
+            width: 290px;
+            height: 60%;
+            background: rgba(255, 255, 255, 0.5);
+            position: fixed;
+            right: -310px;
+            bottom: 0;
+        }
+
+        #nav h2 {
+            padding: 30px 0 5px 39px;
+            color: #fff;
+        }
+
+        #nav .navBtn {
+            position: absolute;
+            left: -100px;
+            bottom: 100px;
+        }
+
+        #nav .navBtn a {
+            background: #000;
+            /*            background: rgba(255, 255, 255, 0.5);*/
+            display: block;
+            padding: 10px;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            color: #fff;
+            text-align: center;
+            line-height: 40px;
+        }
+
+
+        .submit {
+            top: 0;
+            opacity: 1;
+            width: 120px;
+            padding: 8px;
+            text-align: center;
+            margin: 24px auto 0 auto;
+            background: #D1DB82;
+            cursor: pointer;
+            text-transform: uppercase;
+            color: #3E451B;
+            box-shadow: 0px 6px 10px -4px rgba(0, 0, 0, .3), 0px 1px 0px rgba(255, 255, 255, .5) inset, 0px 0px 0px rgba(0, 0, 0, .5) inset;
+        }
+
+        input,
+        textarea {
+            top: 0;
+            display: block;
+            width: 180px;
+            border: none;
+            padding: 15px;
+            margin: 24px auto 0 auto;
+            background: #fefefe;
+            /*            font-style: italic;*/
+            box-shadow: 0px 6px 10px -4px rgba(0, 0, 0, .1), 0px 1px 0px rgba(255, 255, 255, .5) inset, 0px 0px 0px rgba(0, 0, 0, .5) inset;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <div class="form">
+            <div class="mail"></div>
+            <h2>편하게 연락주세요!</h2>
+            <form action="https://formspree.io/sschj20@gmail.com" method="POST" target="_blank">
+                <input type="email" name="_replyto" placeholder="Your E-mail">
+                <textarea name="content" id="content" cols="30" rows="14" placeholder="Message"></textarea>
+                <input type="submit" class="submit" value="Send">
+            </form>
+        </div>
+        <span class="navBtn"><a href="#">Email</a></span>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script>
+        //btn
+        var side = $("#nav");
+        var btn = $(".navBtn");
+
+        btn.click(function() {
+            side.toggleClass("open");
+
+            if (side.hasClass("open")) {
+                side.animate({
+                    "right": "0px"
+                }, 200, "easeOutQuint");
+                btn.find(">a").text("Close");
+            } else {
+                side.animate({
+                    "right": "-310px"
+                }, 200, "easeOutQuint");
+                btn.find(">a").text("Email");
+            };
+
+        });
+
+    </script>
+</body>
+
+</html>
