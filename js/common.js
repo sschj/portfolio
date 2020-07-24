@@ -1,12 +1,20 @@
 $(document).ready(function () {
 
+//    $("iframe").each(function () {
+//        var ifr_source = $(this).attr('src');
+//        var wmode = "wmode=transparent";
+////        wmode=opaque 
+//        if (ifr_source.indexOf('?') != -1) $(this).attr('src', ifr_source + '&' + wmode);
+//        else $(this).attr('src', ifr_source + '?' + wmode);
+//    });
+
     // 1 scroll = 1 page
     // 참고 https://blog.naver.com/rjsahgudwkd2/222009505229
     //      https://blog.naver.com/coding-/221432074882
     // document https://github.com/alvarotrigo/fullPage.js/tree/master/lang/korean
     new fullpage('#fullpage', {
         //licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
-        //        menu: '#myMenu',
+        //menu: '#myMenu',
         autoScrolling: true,
         scrollBar: true,
         scrollHorizontally: true,
@@ -14,7 +22,7 @@ $(document).ready(function () {
         //navigationTooltips: ['MENU','ABOUT'], 
         //showActiveTooltip: true, // true/false
         slidesNavigation: true,
-//                sectionsColor: ['#f2f2f2', '#000'],
+        //sectionsColor: ['#f2f2f2', '#000'],
         controlArrows: true,
         responsiveWidth: 700,
         responsiveHeight: 640,
@@ -26,5 +34,5 @@ $(document).ready(function () {
         },
     });
 
-    
+
 });

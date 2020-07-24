@@ -7,43 +7,80 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
     <style>
         * {
-/*            margin: 0;*/
-/*            padding: 0;*/
+            /*            margin: 0;*/
+            /*            padding: 0;*/
         }
 
         a {
             text-decoration: none;
         }
 
-        body{
-/*            background-color: aqua;*/
-            width: 150px;
+        body {
+            /*            background-color: rgba( 222, 139, 139, 0.484 );*/
+            width: 290px;
         }
 
+        /*메일 칸 좌측 배치 시*/
         /* nav */
         #nav {
+            width: 250px;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            position: fixed;
+            left: -250px;
+            bottom: 0;
+        }
+
+        #nav .navBtn {
+            position: absolute;
+            right: -100px;
+            bottom: 100px;
+        }
+
+        /*//메일 칸 좌측 배치 시*/
+
+        /*메일 칸 우측 배치 시*/
+        /* nav */
+        /*
+        #nav {
             width: 290px;
-            height: 60%;
+            height: 100%;
             background: rgba(255, 255, 255, 0.5);
             position: fixed;
             right: -310px;
             bottom: 0;
-        }
-
-        #nav h2 {
-            padding: 30px 0 5px 39px;
-            color: #fff;
-        }
-
+        }        
+        
         #nav .navBtn {
             position: absolute;
             left: -100px;
             bottom: 100px;
         }
+*/
+        /*//메일 칸 우측 배치 시*/
 
+        #nav .navBtn {
+            transform: rotate(-90deg);
+            background: #FFCC00;
+            padding: 5px;
+            width: 130px;
+            border-radius: 0px 0px 10px 10px;
+            position: absolute;
+            right: -85px;
+            bottom: 100px;
+            text-align: center;
+            color: black;
+            font-weight: 900;
+        }
+
+        #nav h2 {
+            padding: 30px 0 5px 20px;
+            color: #fff;
+        }
+
+/*
         #nav .navBtn a {
             background: #000;
-            /*            background: rgba(255, 255, 255, 0.5);*/
             display: block;
             padding: 10px;
             border-radius: 50%;
@@ -53,7 +90,7 @@
             text-align: center;
             line-height: 40px;
         }
-
+*/
 
         .submit {
             top: 0;
@@ -62,10 +99,10 @@
             padding: 8px;
             text-align: center;
             margin: 24px auto 0 auto;
-            background: #D1DB82;
+            background: rgba( 0, 0, 0, 0.7 );
             cursor: pointer;
             text-transform: uppercase;
-            color: #3E451B;
+            color: #fff;
             box-shadow: 0px 6px 10px -4px rgba(0, 0, 0, .3), 0px 1px 0px rgba(255, 255, 255, .5) inset, 0px 0px 0px rgba(0, 0, 0, .5) inset;
         }
 
@@ -82,6 +119,7 @@
             box-shadow: 0px 6px 10px -4px rgba(0, 0, 0, .1), 0px 1px 0px rgba(255, 255, 255, .5) inset, 0px 0px 0px rgba(0, 0, 0, .5) inset;
 
         }
+
     </style>
 </head>
 
@@ -96,8 +134,10 @@
                 <input type="submit" class="submit" value="Send">
             </form>
         </div>
-        <span class="navBtn"><a href="#">Email</a></span>
+<!--        <span class="navBtn"><a href="#">Email</a></span>-->
+        <span class="navBtn"><a href="#">CONTACT</a></span>
     </div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
@@ -106,21 +146,22 @@
         var side = $("#nav");
         var btn = $(".navBtn");
 
-        btn.click(function() {
+        btn.mouseover(function() {
             side.toggleClass("open");
 
             if (side.hasClass("open")) {
                 side.animate({
-                    "right": "0px"
+                    "left": "0px" // 메일 칸 좌측 배치 시
+                    //                    "right": "0px" // 메일 칸 우측 배치 시
                 }, 200, "easeOutQuint");
                 btn.find(">a").text("Close");
             } else {
                 side.animate({
-                    "right": "-310px"
+                    "left": "-250px" // 메일 칸 좌측 배치 시
+                    //                    "right": "-310px" // 메일 칸 우측 배치 시
                 }, 200, "easeOutQuint");
-                btn.find(">a").text("Email");
+                btn.find(">a").text("CONTACT");
             };
-
         });
 
     </script>

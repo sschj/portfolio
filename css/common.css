@@ -25,10 +25,13 @@ li {
 }
 
 #mail{
-    width: 100%;
-    height: 100%;
+    width: 390px;
+    height: 60%;
     position: fixed;
-    right: 0;
+    /*메일 칸 좌측 배치 시*/
+    left: 0; 
+    /*메일 칸 우측 배치 시*/
+/*    right: 0; */
     bottom: 0;    
     z-index: 1;
 }
