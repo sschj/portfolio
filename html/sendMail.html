@@ -10,6 +10,14 @@
             text-decoration: none;
         }
 
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:active {
+            text-decoration: none;
+        }
+
         body {
             width: 290px;
         }
@@ -25,7 +33,8 @@
             bottom: 0;
             box-shadow: 0px 6px 10px -4px rgba(0, 0, 0, .3), 0px 1px 0px rgba(255, 255, 255, 0) inset, 0px 0px 0px rgba(0, 0, 0, .5) inset;
         }
-/*
+
+        /*
 
         #nav .navBtn {
             position: absolute;
@@ -68,6 +77,7 @@
             text-align: center;
             color: #000;
             font-weight: 900;
+            cursor: pointer;
             box-shadow: 0px 6px 10px -4px rgba(0, 0, 0, .3), 0px 1px 0px rgba(255, 255, 255, .5) inset, 0px 0px 0px rgba(0, 0, 0, .5) inset;
         }
 
@@ -76,7 +86,7 @@
             color: #fff;
         }
 
-/*
+        /*
         #nav .navBtn a {
             background: #000;
             display: block;
@@ -97,7 +107,7 @@
             padding: 8px;
             text-align: center;
             margin: 24px auto 0 auto;
-            background: rgba( 0, 0, 0, 0.7 );
+            background: rgba(0, 0, 0, 0.7);
             cursor: pointer;
             text-transform: uppercase;
             color: #fff;
@@ -113,7 +123,7 @@
             padding: 15px;
             margin: 24px auto 0 auto;
             background: #fefefe;
-/*            box-shadow: 0px 6px 10px -4px rgba(0, 0, 0, .1), 0px 1px 0px rgba(255, 255, 255, .5) inset, 0px 0px 0px rgba(0, 0, 0, .5) inset;*/
+            /*            box-shadow: 0px 6px 10px -4px rgba(0, 0, 0, .1), 0px 1px 0px rgba(255, 255, 255, .5) inset, 0px 0px 0px rgba(0, 0, 0, .5) inset;*/
         }
 
     </style>
@@ -130,8 +140,8 @@
                 <input type="submit" class="submit" value="Send">
             </form>
         </div>
-<!--        <span class="navBtn"><a href="#">Email</a></span>-->
-        <span class="navBtn">CONTACT</span>
+        <!--        <span class="navBtn"><a href="#">Email</a></span>-->
+        <div class="navBtn"><span>CONTACT</span></div>
     </div>
 
 
@@ -142,7 +152,8 @@
         var side = $("#nav");
         var btn = $(".navBtn");
 
-        btn.mouseover(function() {
+        btn.click(function() {
+            //        btn.mouseover(function() {
             side.toggleClass("open");
 
             if (side.hasClass("open")) {
@@ -150,13 +161,13 @@
                     "left": "0px" // 메일 칸 좌측 배치 시
                     //                    "right": "0px" // 메일 칸 우측 배치 시
                 }, 200, "easeOutQuint");
-                btn.find(">a").text("Close");
+                btn.find(">span").text("Close");
             } else {
                 side.animate({
                     "left": "-250px" // 메일 칸 좌측 배치 시
                     //                    "right": "-310px" // 메일 칸 우측 배치 시
                 }, 200, "easeOutQuint");
-                btn.find(">a").text("CONTACT");
+                btn.find(">span").text("CONTACT");
             };
         });
 
