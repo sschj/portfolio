@@ -175,20 +175,21 @@ video {
     padding: 180px 246px 180px 180px;
 }
 
-#about #greeting {
+#greeting {
     float: left;
-    margin: 0 863px 400px 0;
+    margin: 0 813px 400px 0;
     position: relative;
 }
 
-#about #greeting > h5 {
+#greeting > h5 {
     width : 440px;
     height : 19px;
 }
 
-#about #info {
+#info {
     display: inline-block;
     float: right;
+    margin-right: 50px;
 }
 
 #about .name {
@@ -241,7 +242,7 @@ td {
 
 .item {
     float: left;
-    margin-right: 50px;
+    margin: 0 15px 0 15px;
 }
 
 .item .img,
