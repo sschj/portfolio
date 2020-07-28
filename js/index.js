@@ -41,8 +41,8 @@ $(document).ready(function () {
     if (width_size < 1920) {
         //if (result) {
         //document.body.style.zoom = 80+'%';
-//        document.getElementById('lnb').style.zoom = 80 + '%';
-//        document.getElementById('about').style.zoom = 80 + '%';
+        document.getElementById('lnb').style.zoom = 80 + '%';
+        document.getElementById('about').style.zoom = 80 + '%';
 //        document.getElementById('mail').style.zoom = 80 + '%';
         //doZoom();
         //}
