@@ -46,7 +46,7 @@ $(document).ready(function () {
 //        document.getElementById('mail').style.zoom = 80 + '%';
         //doZoom();
         //}
-//        alert(width_size);
+        console.log(width_size);
     }
 
     // 화면 확대 축소
